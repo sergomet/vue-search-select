@@ -19,7 +19,7 @@
            @keydown.delete="deleteTextOrItem"
     />
     <div class="text"
-         :class="textClass" :data-vss-custom-attr="searchTextCustomAttr">{{inputText}}
+         :class="textClass" :data-vss-custom-attr="searchTextCustomAttr" v-html="inputText">
     </div>
     <div class="menu"
          ref="menu"

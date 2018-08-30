@@ -8246,8 +8246,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    class: _vm.textClass,
 	    attrs: {
 	      "data-vss-custom-attr": _vm.searchTextCustomAttr
+	    },
+	    domProps: {
+	      "innerHTML": _vm._s(_vm.inputText)
 	    }
-	  }, [_vm._v(_vm._s(_vm.inputText) + "\n  ")]), _vm._v(" "), _c('div', {
+	  }), _vm._v(" "), _c('div', {
 	    ref: "menu",
 	    staticClass: "menu",
 	    class: _vm.menuClass,
