@@ -33,8 +33,8 @@
              :data-vss-custom-attr="customAttrs[idx] ? customAttrs[idx] : ''"
              @click.stop="selectItem(option)"
              @mousedown="mousedownItem"
-             @mouseenter="pointerSet(idx)">
-          {{option.text}}
+             @mouseenter="pointerSet(idx)"
+             v-html="option.text">
         </div>
       </template>
     </div>
